@@ -41,7 +41,7 @@
             $str = json_encode($users);
             file_put_contents('users.json', $str);
 
-            echo "<a href='/authorization.php'>Авторизация</a>";
+            echo "<a href='authorization.php'>Авторизация</a>";
             exit;
         } else {
             echo 'Введенные пароли не совпадают';

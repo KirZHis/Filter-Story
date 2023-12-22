@@ -54,7 +54,6 @@
     }
  }
 ?>
-
 <?php 
   try {
     if (!file_exists('catalog.json')) throw new Exception('Файла .json не существует');
@@ -180,6 +179,7 @@
     header('Location: ' . $_SERVER['PHP_SELF']);
   }
 
+  echo "<hr>";
   $cat = "";
   foreach ($catalog as $key=>$product) {
       if ($cat != $product['category']) {

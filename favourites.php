@@ -1,3 +1,4 @@
+<p style="font-size: 26px;"><a href="index.php">Каталог</a></p>
 <?php
     session_start();
 
@@ -82,7 +83,6 @@
         <a href="register.php">Регистрация</a> |
         <a href="authorization.php">Авторизация</a>
         </div>
-        <p style="font-size: 26px;"><a href="index.php">Каталог</a></p>
         <?php
         echo "<p style='font-size: 26px;'>Вы еще не авторизованы!</p>";
     }
